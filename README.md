@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Andrei Stoica Coaching
 
-## Getting Started
+Andrei Stoica Coaching is a fictional personal training landing-page concept created exclusively as a web development portfolio project. It does not represent a real personal training business.
 
-First, run the development server:
+## Project Overview
+
+This project demonstrates the design and implementation of a polished, responsive marketing page with a premium dark-charcoal and electric-lime visual direction. The experience presents a fictional coaching brand through clear content hierarchy, reusable interface patterns, and focused calls to action.
+
+[View the live demo](https://andrei-fitness.pages.dev)
+
+## Features
+
+- Responsive premium landing page
+- Mobile-first layout
+- Functional internal navigation
+- Coaching, method, progress, about, and closing CTA sections
+- Accessible semantic HTML and visible keyboard focus states
+- Custom favicon and SEO metadata
+- Custom 404 page
+- Static export deployment
+
+## Technologies
+
+- Next.js 16 with App Router
+- React
+- TypeScript
+- Tailwind CSS
+- Git and GitHub
+- Cloudflare Pages
+
+## Project Structure
+
+```text
+src/app/
+├── globals.css       # Global styles and Tailwind configuration
+├── layout.tsx        # Root layout, fonts, and metadata
+├── page.tsx          # Landing page content and sections
+├── not-found.tsx     # Custom 404 page
+├── icon.svg          # Application icon
+└── favicon.ico       # Browser favicon
+next.config.ts        # Next.js static export configuration
+package.json          # Dependencies and project scripts
+```
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run linting:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The site is deployed to Cloudflare Pages using Next.js static export. The `output: "export"` setting in `next.config.ts` generates the deployable site in the `out` directory during the production build.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What I Practiced
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Translating a visual direction into a responsive interface
+- Structuring an App Router project with semantic page sections
+- Building mobile-first layouts with Tailwind CSS
+- Applying accessibility considerations to navigation and interactive elements
+- Configuring metadata, custom error handling, and static export deployment
+- Maintaining changes with Git and GitHub
