@@ -1,6 +1,3 @@
-const whatsappUrl =
-  "https://wa.me/40755940166?text=Hi%20Andrei%2C%20I%27m%20interested%20in%20personal%20training.";
-
 const navigation = [
   { label: "Coaching", href: "#coaching" },
   { label: "Method", href: "#method" },
@@ -106,10 +103,10 @@ export default function Home() {
           </nav>
 
           <a
-            href="#contact"
+            href="#coaching"
             className={`border border-[#c8ff32] px-4 py-2.5 text-xs font-bold tracking-[0.14em] text-[#c8ff32] uppercase transition-colors hover:bg-[#c8ff32] hover:text-[#111311] sm:px-5 ${focusRing}`}
           >
-            Contact
+            View Services
           </a>
         </div>
       </header>
@@ -137,18 +134,16 @@ export default function Home() {
             <p className="mt-8 max-w-xl text-base leading-7 text-white/65 sm:text-lg sm:leading-8">
               Structured, one-to-one coaching for people ready to train with purpose.
               Build strength, improve your technique, and create a consistent approach
-              to training at 18Gym in Cluj-Napoca.
+              to training that fits your goals and experience.
             </p>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#coaching"
                 className={`inline-flex min-h-14 items-center justify-center gap-3 bg-[#c8ff32] px-7 text-sm font-extrabold text-[#111311] transition-colors hover:bg-[#dcff7a] ${focusRing}`}
               >
-                Start Your Transformation
-                <span aria-hidden="true">↗</span>
+                Explore Coaching
+                <span aria-hidden="true">↓</span>
               </a>
               <a
                 href="#method"
@@ -289,9 +284,9 @@ export default function Home() {
               </h2>
               <div className="mt-7 max-w-2xl space-y-5 text-base leading-8 text-white/60">
                 <p>
-                  Andrei provides in-person, one-to-one personal training at 18Gym in
-                  Cluj-Napoca. His coaching is centered on purposeful practice, clear
-                  communication, and training that respects the individual in front of him.
+                  Andrei provides focused, one-to-one personal training. His coaching is
+                  centered on purposeful practice, clear communication, and training that
+                  respects the individual in front of him.
                 </p>
                 <p>
                   The aim is straightforward: help you understand your training, improve
@@ -299,54 +294,33 @@ export default function Home() {
                   Every session has a reason, and every plan is adjusted to the person doing it.
                 </p>
               </div>
-              <a href="#contact" className={`mt-9 inline-flex items-center gap-3 text-sm font-bold text-[#c8ff32] ${focusRing}`}>
-                Let&apos;s talk about your training <span aria-hidden="true">↓</span>
+              <a href="#coaching" className={`mt-9 inline-flex items-center gap-3 text-sm font-bold text-[#c8ff32] ${focusRing}`}>
+                Explore the coaching approach <span aria-hidden="true">↓</span>
               </a>
             </div>
           </div>
         </section>
 
-        <section id="contact" aria-labelledby="contact-heading" className="scroll-mt-20 border-t border-white/10 bg-[#191c19]">
+        <section aria-labelledby="closing-heading" className="border-t border-white/10 bg-[#191c19]">
           <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 sm:py-28 lg:px-12">
             <div className="grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
               <div>
-                <p className="text-xs font-bold tracking-[0.22em] text-[#c8ff32] uppercase">Start now</p>
-                <h2 id="contact-heading" className="mt-4 max-w-4xl text-5xl leading-[0.95] font-black tracking-[-0.055em] uppercase sm:text-7xl">
-                  Ready to train with purpose?
+                <p className="text-xs font-bold tracking-[0.22em] text-[#c8ff32] uppercase">Train with intent</p>
+                <h2 id="closing-heading" className="mt-4 max-w-4xl text-5xl leading-[0.95] font-black tracking-[-0.055em] uppercase sm:text-7xl">
+                  READY TO TRAIN WITH PURPOSE?
                 </h2>
                 <p className="mt-6 max-w-xl text-base leading-7 text-white/55">
-                  Send Andrei a message to discuss your goals and in-person personal
-                  training at 18Gym, Cluj-Napoca.
+                  Discover a focused personal-training approach built around clear goals,
+                  thoughtful progression, and consistent effort.
                 </p>
               </div>
               <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#coaching"
                 className={`inline-flex min-h-16 items-center justify-center gap-3 bg-[#c8ff32] px-8 text-sm font-extrabold text-[#111311] transition-colors hover:bg-[#dcff7a] lg:justify-self-end ${focusRing}`}
               >
-                Message on WhatsApp <span aria-hidden="true">↗</span>
+                Explore Coaching <span aria-hidden="true">↑</span>
               </a>
             </div>
-
-            <address className="mt-16 grid gap-px border border-white/10 bg-white/10 not-italic sm:grid-cols-3">
-              <div className="bg-[#111311] p-6">
-                <p className="text-xs font-bold tracking-[0.16em] text-white/35 uppercase">WhatsApp</p>
-                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={`mt-3 inline-block font-semibold transition-colors hover:text-[#c8ff32] ${focusRing}`}>
-                  +40 755 940 166
-                </a>
-              </div>
-              <div className="bg-[#111311] p-6">
-                <p className="text-xs font-bold tracking-[0.16em] text-white/35 uppercase">Email</p>
-                <a href="mailto:andreistoica341@yahoo.com" className={`mt-3 inline-block break-all font-semibold transition-colors hover:text-[#c8ff32] ${focusRing}`}>
-                  andreistoica341@yahoo.com
-                </a>
-              </div>
-              <div className="bg-[#111311] p-6">
-                <p className="text-xs font-bold tracking-[0.16em] text-white/35 uppercase">Location</p>
-                <p className="mt-3 font-semibold">18Gym, Cluj-Napoca</p>
-              </div>
-            </address>
           </div>
         </section>
       </main>
@@ -357,7 +331,7 @@ export default function Home() {
             <span className="grid size-8 place-items-center bg-[#c8ff32] text-xs font-black text-[#111311]">AS</span>
             <p className="font-semibold tracking-[0.12em] text-white/70 uppercase">Andrei Stoica Coaching</p>
           </div>
-          <p>In-person 1-to-1 personal training · 18Gym, Cluj-Napoca</p>
+          <p>Personal training concept · Built for purposeful progress</p>
           <a href="#top" className={`font-bold text-white/60 transition-colors hover:text-[#c8ff32] ${focusRing}`}>
             Back to top ↑
           </a>

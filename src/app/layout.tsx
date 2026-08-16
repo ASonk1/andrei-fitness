@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Andrei Stoica Coaching | Personal Trainer Cluj-Napoca";
+const title = "Andrei Stoica Coaching | Personal Training Concept";
 const description =
-  "In-person 1-to-1 personal training with Andrei Stoica at 18Gym in Cluj-Napoca. Personalized coaching focused on strength, technique, consistency, and sustainable progress.";
+  "A responsive personal training concept website built with Next.js, TypeScript, and Tailwind CSS.";
 
 export const metadata: Metadata = {
   title,
