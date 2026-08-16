@@ -8,6 +8,18 @@ This project demonstrates the design and implementation of a polished, responsiv
 
 [View the live demo](https://andrei-fitness.pages.dev)
 
+## Screenshots
+
+### Desktop
+
+![Desktop homepage preview](./docs/screenshots/desktop-full-page.png)
+
+### Mobile
+
+<p align="center">
+  <img src="./docs/screenshots/mobile-full-page.png" alt="Mobile homepage preview" width="360" />
+</p>
+
 ## Features
 
 - Responsive premium landing page
